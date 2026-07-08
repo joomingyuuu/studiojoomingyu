@@ -279,9 +279,9 @@ h3 {
   filter: saturate(.86);
 }
 
-.thumb-projects { background-image: linear-gradient(135deg, rgba(231,222,208,.45), rgba(119,123,101,.18)), url("assets/images/card-projects.jpg"); }
-.thumb-notes { background-image: linear-gradient(135deg, rgba(213,200,184,.48), rgba(159,155,137,.16)), url("assets/images/card-notes.jpg"); }
-.thumb-archive { background-image: linear-gradient(135deg, rgba(238,233,223,.52), rgba(185,173,156,.22)), url("assets/images/card-archive.jpg"); }
+.thumb-projects { background-image: linear-gradient(135deg, rgba(231,222,208,.45), rgba(119,123,101,.18)), url("assets/images/card-projects.png"); }
+.thumb-notes { background-image: linear-gradient(135deg, rgba(213,200,184,.48), rgba(159,155,137,.16)), url("assets/images/card-notes.png"); }
+.thumb-archive { background-image: linear-gradient(135deg, rgba(238,233,223,.52), rgba(185,173,156,.22)), url("assets/images/card-archive.png"); }
 
 .card p, .muted { color: var(--muted); }
 
