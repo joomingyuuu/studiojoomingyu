@@ -69,14 +69,70 @@ nav {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: 1fr .82fr;
-  gap: 64px;
-  align-items: end;
-  padding: 82px 0 96px;
+
+    position: relative;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    background-image: url("assets/images/hero.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
 }
 
-.hero-copy { padding-bottom: 28px; }
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,0.28);
+
+}
+
+.hero-copy{
+
+    position:relative;
+
+    z-index:10;
+
+    max-width:900px;
+
+    padding:40px;
+
+}
+
+.hero h1{
+
+    color:white;
+
+}
+
+.hero .lead{
+
+    color:rgba(255,255,255,.85);
+
+}
+
+.hero .eyebrow{
+
+    color:rgba(255,255,255,.75);
+
+}
 
 h1, h2, h3 { font-weight: 400; margin: 0; }
 
