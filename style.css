@@ -386,13 +386,15 @@ h3 {
     color:#222;
 
 }
-.projects-hero {
-  min-height: 58vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 120px 0 80px;
-  border-bottom: 1px solid var(--faint);
+
+.projects-hero{
+
+    width:min(1180px, calc(100% - 80px));
+
+    margin:auto;
+
+    padding:140px 0 80px;
+
 }
 
 .projects-hero h1 {
