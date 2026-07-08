@@ -377,6 +377,16 @@ h3 {
 
 }
 
+.lead-essay{
+
+    font-size:28px;
+
+    line-height:1.65;
+
+    color:#222;
+
+}
+
 @media (max-width: 900px) {
   header { grid-template-columns: 1fr; gap: 12px; padding: 22px 0; }
   .home header { width: calc(100% - 44px); }
