@@ -354,6 +354,29 @@ h3 {
   letter-spacing: .06em;
 }
 
+.essay{
+
+    font-family: -apple-system,
+                 BlinkMacSystemFont,
+                 "Helvetica Neue",
+                 "Pretendard",
+                 "Noto Sans KR",
+                 sans-serif;
+
+    font-size: 20px;
+
+    line-height: 1.9;
+
+    color: #303030;
+
+    max-width: 720px;
+
+    margin-bottom: 38px;
+
+    font-weight: 400;
+
+}
+
 @media (max-width: 900px) {
   header { grid-template-columns: 1fr; gap: 12px; padding: 22px 0; }
   .home header { width: calc(100% - 44px); }
